@@ -1,0 +1,4 @@
+chess-env/
+data/raw/*pgn
+
+data/processed/
