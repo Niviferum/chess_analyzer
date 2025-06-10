@@ -44,7 +44,7 @@ numpy>=1.21.0
 
 ### Utilisation des notebooks
 
-La première chose à faire est d'obtenir une database dans les archives de Lichess. Une fois obtenue, vous pouvez mettre votre database `.pgn` dans `data/raw` et la renommer `lichess_games.pgn`.
+La première chose à faire est d'obtenir une database dans les archives de Lichess, sur le site `https://database.lichess.org`. Une fois obtenue, vous pouvez mettre votre database `.pgn` dans `data/raw` et la renommer `lichess_games.pgn`.
 
 Ensuite, vous pouvez exécuter d'abord le **notebook 01** pour faire le nettoyage de la base pour les quelques parties qui seraient peu utiles à l'analyse ou encore des parties buggées.
 
