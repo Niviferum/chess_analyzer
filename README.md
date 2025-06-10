@@ -4,7 +4,8 @@ Un outil d'analyse d'échecs avancé pour analyser vos parties et améliorer vot
 
 ## 📖 Description
 
-Chess Analyzer est un projet Python conçu pour analyser des parties d'échecs au format PGN de l'archive de Lichess (Portable Game Notation). L'outil permet d'extraire des statistiques détaillées, d'analyser les ouvertures, et de fournir des insights sur la performance des joueurs.
+A partir de fichier PGN (Portable Game Notation), listant des parties, **Chess Analyzer** permet de sortir des statistiques sur les meilleurs ouvertures, en fonction de l'élo, et de la couleur jouée. 
+L'outil permet d'extraire des statistiques détaillées, d'analyser les ouvertures, et de fournir des insights sur la performance des différents jeux.
 
 ## ✨ Fonctionnalités
 
@@ -38,6 +39,7 @@ pandas>=1.5.0
 matplotlib>=3.5.0
 seaborn>=0.11.0
 numpy>=1.21.0
+chess.pgn>=1.99
 ```
 
 ## 🎮 Utilisation
@@ -83,10 +85,11 @@ chess_analyzer/
 │   └── data_processing/
 │       ├── data_cleaner.py     # Nettoyage des données du fichier raw
 │       └── pgn_parser.py       # Parseur de fichiers PGN
-├── notebooks/
-│   └── exploration.ipynb       # Notebooks d'exploration
 ├── requirements.txt
 ├── main.py                     # Script principal
+├──01_data_exploration.ipynb                   # Notebook 1
+├──02_data_analysis_and_visualization.ipynb    # Notebook 2
+├──03-openning-colors-winrate.ipynb            # Notebook 3
 └── README.md
 ```
 
