@@ -44,11 +44,13 @@ numpy>=1.21.0
 
 ### Utilisation des notebooks
 
-La première chose à faire est d'obtenir une database dans les archives de Lichess. Une fois obtenue, vous pouvez mettre votre database `.pgn` dans `data/raw` et la renommer `lichess_games.pgn`.
+La première chose à faire est d'obtenir une database dans les archives de Lichess (https://database.lichess.org/). Une fois obtenue, vous pouvez mettre votre database `.pgn` dans `data/raw` et la renommer `lichess_games.pgn`.
 
 Ensuite, vous pouvez exécuter d'abord le **notebook 01** pour faire le nettoyage de la base pour les quelques parties qui seraient peu utiles à l'analyse ou encore des parties buggées.
 
-Enfin, pour les visualisations, vous pouvez exécuter le **notebook 02** et suivre les indications du notebook pour voir les différentes visualisations dans votre navigateur à l'aide des fichiers HTML.
+Après, pour les visualisations, vous pouvez exécuter le **notebook 02** et suivre les indications du notebook pour voir les différentes visualisations dans votre navigateur à l'aide des fichiers HTML.
+
+Pour terminer, vous pouvez exécuter le **notebook 03**, pour visualiser le winrate et userate, en fonction des couleurs.
 
 ### Analyse basique
 
